@@ -1,7 +1,8 @@
-﻿int n = 0;
+﻿﻿int n = 0;
 int maximo;
 string seguir;
 Console.Clear();
+Console.WriteLine("------- Tabuada -------");
 do
 {
     Console.WriteLine("Digite o valor da tabuada ");
@@ -28,5 +29,3 @@ do
 } 
 while(seguir=="s");
 Console.ResetColor();
-
-
